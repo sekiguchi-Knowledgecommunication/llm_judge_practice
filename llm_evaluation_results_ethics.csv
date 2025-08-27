@@ -1,0 +1,287 @@
+model,question,answer,evaluation
+gpt-4o,"
+            国家公務員が利害関係者から金銭・物品の贈与を受けたりすることを禁止することは分かりますが、
+            割り勘の場合のゴルフや旅行まで禁止するのは行き過ぎではないでしょうか。
+        ","あなたの意見には一理あります。国家公務員が利害関係者と関わる際には公正で透明性のある行動が求められますが、割り勘でのゴルフや旅行まで禁止することは過剰に感じるかもしれません。こうした規制の目的は、利害関係者との間で公務員が不当な影響を受けないようにすることにあります。
+
+しかし、全てのケースで禁止することが行き過ぎであるという意見も理解できます。問題は、どのようにバランスを取るか、ということです。規制が厳しすぎると、逆に公務員の業務遂行において必要なコミュニケーションが阻害される可能性もあります。一方で、緩すぎると、利益誘導や不正の温床になるかもしれません。
+
+この問題を解決するには、ケースバイケースで対応する柔軟なルールやガイドラインを設けることが望ましいかもしれません。また、公務員自身が倫理観を高めることも重要です。このようにして、公正さを保ちながら、適切なコミュニケーションや交流を可能にする方法を模索することが求められます。","{'key': 'score', 'score': True, 'comment': 'The response discusses both sides of the issue by acknowledging that while public servants must maintain impartiality and transparency, an outright ban on activities such as golfing or traveling just because the costs are split may seem excessive. It correctly addresses the need for balance and the potential drawbacks of overly strict regulations. Although it does not reference historical cases or specific evidence (which were mentioned in the reference output), it remains factually accurate and logically consistent while addressing all parts of the question. Thus, the score should be: true.', 'metadata': None}"
+gpt-5-mini,"
+            国家公務員が利害関係者から金銭・物品の贈与を受けたりすることを禁止することは分かりますが、
+            割り勘の場合のゴルフや旅行まで禁止するのは行き過ぎではないでしょうか。
+        ","ご質問ありがとうございます。結論を先に言うと、「割り勘であっても禁止されるのは行き過ぎに見える部分もあるが、得てしてそうした厳格な運用には合理的な理由がある」というのが一般的な説明です。以下、なぜそうなるのか（行政側の論点）、反対の立場からの論点、現場でできる対応案を整理します。
+
+1) なぜ割り勘でも禁止されるのか（行政側の主な論点）
+- 影響や利益供与の可能性：表面的に割り勘でも、主催側が実質的に負担していたり、接待を通じて便宜供与を期待する関係が作られる恐れがある。金銭のやり取りだけでなく「関係性や恩義」が問題となる。
+- 「見え方」の問題：公務員の倫理は実際の不正だけでなく国民から見た信頼も守ることが目的。割り勘であっても「業者とゴルフを楽しんでいる」と見られれば不信を招く。
+- 判断の難しさと運用の容易さ：誰がどれだけ払ったか、割り勘の実態を第三者が検証するのは難しい。線引きを曖昧にすると例外の恣意的運用につながるため、明確な禁止でルールを簡素化することがある。
+- 利益相反や接待文化の抑制：特定業者との親密化を防ぎ、腐敗の芽を早期に摘む予防策として機能する。
+
+2) 行き過ぎに見える点（反対の論点）
+- 公私の区別が難しく、業務上必要な意見交換や情報収集が阻害される可能性がある（研究会、現場視察後の会食等）。
+- 正当な交流まで排除すると、政策改善や現場の実情把握に不都合が生じる。
+- 厳格すぎると士気低下や民間との建設的な協力が損なわれることもある。
+
+3) 現実的な折衷／運用上の工夫（現場・制度設計双方への提案）
+- 透明性の確保：会食等を行う場合は事前申請・事後報告を義務づけ、参加者名・費用負担の内訳を記録する運用にする。
+- 明確な閾値設定：例えば1回あたりの費用が一定額以下なら例外とする等、金額基準を設ける（ただし金額だけで全ては判定できない）。
+- 第三者による事前承認：利害関係のある相手との接触は上司や倫理窓口の承認を要する。
+- 教育とガイドライン整備：どのような状況が問題になりうるか具体例を示し、公務員が判断しやすいようにする。
+- 公開制度の導入：一定の接待・贈与は公開リストに載せることで「見え方」を担保する。
+
+4) 実務上のあなたが取るべき行動（公務員であれば）
+- 誘われたらまず相手の立場（利害関係者かどうか）と会合の趣旨を確認する。
+- 割り勘でも疑念が生じる場合は辞退か、上司・倫理窓口に相談・事前承認を取る。
+- 会合後は記録を残す（誰が、何のために、費用負担はどうだったか）。
+- 不明点は所属機関の倫理担当に確認する。
+
+まとめ：
+割り勘のゴルフや旅行まで全面禁止にするのは「個々の自由な交流を制限しすぎる」と感じる面は確かにありますが、国民の信頼を守るため・判断の恣意性を避けるために厳格化されることが多い、という事情があります。制度設計としては「明確な線引き＋透明性・例外手続き」でバランスを取ることが望ましいです。
+
+具体的にあなたの所属部署や状況（例：どの法律・規程が問題になっているか、実際の誘いの状況）が分かれば、より実務的な対応案をお伝えできます。必要なら教えてください。","{'key': 'score', 'score': True, 'comment': ""The output thoroughly explains the rationale behind prohibiting even split-cost activities such as golf or travel for public servants, noting that even if the cost is shared, the perception of undue influence or preferential treatment can undermine public trust. It presents both the administrative rationale (potential for benefit exchange, the 'appearance' factor, difficulties in verification, and prevention of conflicts of interest) and the counterarguments (risks of restricting legitimate interactions) along with practical suggestions (transparent procedures, clear thresholds, third-party oversight, and guidelines) to balance these issues. This explanation aligns well with the reference outputs and meets all correctness criteria by being accurate, complete, factually consistent, and logically coherent. Thus, the score should be: true."", 'metadata': None}"
+gpt-5,"
+            国家公務員が利害関係者から金銭・物品の贈与を受けたりすることを禁止することは分かりますが、
+            割り勘の場合のゴルフや旅行まで禁止するのは行き過ぎではないでしょうか。
+        ","ご指摘の違和感は多くの人が感じるところだと思います。背景と趣旨を整理すると、なぜ「割り勘でもゴルフや旅行はダメ」が置かれているのかは次のように説明できます。
+
+- 法的枠組みのポイント
+  - 国家公務員倫理法・倫理規程では、利害関係者からの金品や接待の受領だけでなく、「利害関係者と共にするゴルフや旅行」自体を原則禁止しています（誰が払うかに関わらず）。
+  - 一方で、通常の会食は、完全な割り勘で、業務上の必要性や社会通念からみて相当と判断できる場合は許容されうる余地があります（ただし実務上は事前相談・報告が求められる場面が多い）。
+
+- 割り勘でもゴルフ・旅行が禁止される主な理由
+  1) 影響力の温床になりやすい：金銭の授受がなくても、長時間の私的な余暇を共にすること自体が心理的な拘束や便宜供与の期待を生みやすい。
+  2) 公正性の疑念を招く：外形的に「特別に親密」と見える行為は、結果として意思決定の公正さへの信頼を損なう。
+  3) 実務上の検証が困難：本当に等分負担か、メンバー同伴特典・予約便宜・送迎など実質的な利益が紛れ込んでいないか、第三者が検証しにくい。
+  4) 明確な一線を設ける必要：過去の不祥事の反省から、グレーを残さず現場で迷わない「わかりやすい禁止ライン」を置く政策判断がなされている。
+
+- 「行き過ぎ」かという評価について
+  - デメリット：私生活の自由や利害関係者との健全な情報交換の機会が狭まる、硬直的に見える。
+  - メリット：早期段階での癒着防止、外形的な疑惑を避ける抑止効果、現場での判断負担の軽減。
+  - 日本の制度は「外形的な疑念の排除」を重視して比較的厳格な線引きを採っています。政策選択としては賛否があり得ますが、信頼確保を優先した結果と位置づけられます。
+
+- 実務上のヒント
+  - 相手が「利害関係者」に当たるかの確認が第一。該当しない友人知人との私的なゴルフや旅行まで禁止されているわけではありません。
+  - グレーな場合は倫理担当に事前相談。業務関連の行事・視察などは、公式手続や公開性を確保すれば適法に実施可能な枠組みがあります。
+  - 会食は少人数・短時間・完全割り勘・記録保持など「外形の透明性」を意識すると安心です。
+
+結論として、「割り勘なら利害はないだろう」という感覚は理解できますが、制度は金銭の授受だけでなく「外形的な親密さによる疑念」までカバーし、運用の明確性を優先しているため、ゴルフや旅行は包括的に禁じている、という整理になります。なお、具体的な可否は職場の倫理規程・通達や倫理担当の運用で細部が異なることがあるので、最終的には所属先の指針をご確認ください。","{'key': 'score', 'score': True, 'comment': 'The answer provided is accurate, detailed, and covers all aspects of the question. It explains that even in the case of splitting the cost, the prohibition is due to concerns about potential influence, appearance of undue closeness, and the need for clear guidelines, reflecting the intentions behind the legal framework. The answer is complete, factually correct, and logically consistent, using precise terminology throughout. Thus, the score should be: true.', 'metadata': None}"
+gpt-4o,"
+            国家公務員の「利害関係者」に該当する企業の創立○○周年記念パーティー（立食形式）に出席して、
+            利害関係者から飲食物の提供を受けることは、倫理規程に違反するのでしょうか。
+        ","国家公務員倫理規程において、国家公務員はその職務に関連して、利害関係者から金銭や物品、接待などを受けることは禁止されている場合があります。したがって、利害関係者に該当する企業の記念パーティーに出席し、そこで飲食物の提供を受けることは、倫理規程に抵触する可能性が高いです。
+
+実際のところ、具体的な状況や詳細によって判断が変わる場合もありますので、最終的には所属する職場の倫理担当部署や担当者に相談し、適切な判断を仰ぐことが重要です。倫理基準は厳格に運用されており、誤解や不正の疑いを避けるためにも慎重な行動が求められます。","{'key': 'score', 'score': False, 'comment': 'The provided answer states that attending the anniversary party and accepting beverages and food would likely violate the ethics regulation. However, according to the reference output, such provisions in a stand-up party context attended by many are considered an exception under the ethics regulation. Therefore, the given answer is factually incorrect in its interpretation of the ethics guidelines. Thus, the score should be: false.', 'metadata': None}"
+gpt-5-mini,"
+            国家公務員の「利害関係者」に該当する企業の創立○○周年記念パーティー（立食形式）に出席して、
+            利害関係者から飲食物の提供を受けることは、倫理規程に違反するのでしょうか。
+        ","結論から簡潔に言うと、「場合による」が原則です。利害関係者からの飲食の提供は、職務に影響を及ぼすおそれがある場合や社会通念上相当でない場合には倫理規程に抵触します。以下を確認して対応してください。
+
+1) 判断の基本方針（一般論）
+- 利害関係者からの接待・贈与は原則として慎重に扱う必要がある。職務の公正性が損なわれる、あるいはそう見られるおそれがあれば受けてはいけません。  
+- 他方で、一般の社会慣行の範囲内のごく普通の会食等（不自然に高額でない、頻繁でない、職務対応と直接結びつかないもの）は例外的に許容される場合があります。
+
+2) 判断に影響する具体的要素（チェックリスト）
+- その企業が「自分の職務に直接関与する利害関係者」か（入札・許認可・監督などを扱っているか）。関与が強ければ許容されにくい。  
+- パーティーの性格：大勢が参加する公的・社交的な行事か、個人的で少人数の接待か。前者の方が受け取りやすい。  
+- 提供される飲食の価値（高額か普通か）、頻度（同じ相手から繰り返し受けていないか）。  
+- 参加が職務上の行為として行われるか、私的な交際として出席するか。職務上であると見なされると厳格に判断されやすい。  
+- 当該企業と最近の取引・交渉・決定の関係（決定の前後などタイミング）。
+
+3) 実務的対応（推奨）
+- まず所属機関の「倫理規程」やガイドラインを確認する（多くの省庁・機関は具体的なルールや報告手続を定めています）。  
+- 判断が曖昧なら所属の倫理管理担当者（倫理審査委員や監督部署）に事前相談・届出する。事後報告が義務づけられている場合もある。  
+- 出席してもらう場合は、可能なら会費を支払う、あるいは「自分で飲食分を負担する」と表明する。これによって利益供与の印象を弱められる場合がある。  
+- 受けるのを避けたい場合の断り文例（日本語）：
+  - 「ご招待ありがとうございます。ただ、職務と関係のある方からの接待は受けられない規程になっておりますので、今回は失礼いたします。」
+  - 「ご厚意はありがたいのですが、公務員の身分上、頂戴できませんのでご理解ください。」
+- 万が一受けてしまった場合は、速やかに上司・倫理担当に報告し、指示に従う。
+
+4) 典型的なケースの目安（参考）
+- その企業が自分の業務上の審査・監督対象で、かつ決定に影響を与える立場にある場面：原則受けない。  
+- 多数の来賓がいる一般的な周年パーティーで、個別の優遇（高額な酒・特別席・高級な土産など）がない場合：許容される可能性が高いが、事前確認・報告は有効。  
+- 頻繁に高額な接待を受けている場合や、受け取ったことで職務判断に影響が生じるおそれがある場合：禁止。
+
+5) 最後に（注意点）
+- 法令や所属機関の規程の具体的文言によって扱いが異なります。最終的には所属先の倫理担当部門に確認するのが確実です。必要であれば、所属先に問い合わせるための簡単な相談文案や報告書案を作りますので、状況（職務内容、当該企業との関係、パーティーの規模・条件等）を教えてください。","{'key': 'score', 'score': True, 'comment': 'The response explains that the acceptability of receiving food and drink at such an event depends on various contextual details, emphasizing that it is conditionally allowed if it does not appear to influence professional duties. It accurately outlines the factors to consider (such as the nature of the stakeholder relationship, party characteristics, and the type of food offered) and provides practical guidance on verifying policies and managing situations. There are no factual errors, and all aspects—from general principles to specific recommendations—are addressed. Thus, the score should be: true.', 'metadata': None}"
+gpt-5,"
+            国家公務員の「利害関係者」に該当する企業の創立○○周年記念パーティー（立食形式）に出席して、
+            利害関係者から飲食物の提供を受けることは、倫理規程に違反するのでしょうか。
+        ","結論
+- 原則として違反です。利害関係者が主催する記念パーティーで提供される飲食は「供応接待」に当たり、国家公務員倫理法・倫理規程で受領が禁じられています。
+
+例外・可能となる条件
+- 会費制で、一人当たりの実費相当額をあなた自身が負担できる場合は可。
+  - 名目だけの会費や著しく低廉な会費は不可。参加者に一律で明示された金額で、実費をカバーしていることが必要です。
+- 職務上やむを得ず出席・飲食が必要な場合は、事前に所属の倫理監督官・倫理担当に相談し、所要の届出・承認手続きを行った上で、必要最小限に限って可（運用は各府省で異なります）。
+
+実務上の対応
+- 無料招待や会費不明の立食パーティーでは、飲食は受けず、挨拶のみで短時間の滞在とするのが安全です。
+- 既に飲食してしまった場合は、速やかに倫理担当に報告し、相当額の支払い（後日精算）や返却などの是正措置を指示に従って行ってください。
+- 記念品・手土産の受領も同様に原則不可です。
+- その企業があなたの職務上の「利害関係者」に当たるか不明な場合も、必ず事前に所属の倫理担当に確認してください。
+
+ポイント
+- 「利害関係者からの飲食の提供＝供応接待」は原則禁止。
+- 自己負担で実費精算できるか、あるいは職務上やむを得ない場合の事前手続があるかが判断の分かれ目です。","{'key': 'score', 'score': False, 'comment': 'The provided answer states that, as a rule, accepting food and beverages at such a commemorative stand-up party is in violation of the ethics regulations, except under narrow conditions where the expense is borne by the official or approved by the relevant ethics authority. In contrast, the reference output expressly mentions that in cases where many people attend a stand-up party, acceptance from a stakeholder is considered an exception and is allowed. This key difference in conclusion regarding the allowance of such events indicates that the answer provided contains a factual inaccuracy relative to the reference output. Thus, the score should be: false.', 'metadata': None}"
+gpt-4o,"
+            国家公務員が結婚披露宴に利害関係者を招待する場合には、倫理監督官に届出をする必要がありますか。
+            利害関係者が行う結婚披露宴に、国家公務員が出席する場合（祝儀や会費を持参するため自己費用負担）はどうですか。
+        ","国家公務員が結婚披露宴に利害関係者を招待する場合、倫理的な観点から問題が生じる可能性があります。そのため、招待する際には倫理監督官に届出を行う必要があるかどうか確認するのが一般的です。この手続きは所属している組織の規定に従う必要があります。
+
+一方で、利害関係者が行う結婚披露宴に国家公務員が出席する場合、国家公務員が祝儀や会費を持参し、その費用を自己負担する場合には、原則として倫理的な問題は少ないと考えられます。しかし、これも組織や所属する省庁の倫理規定に依存するため、事前に組織の指針を確認することが重要です。特に高額な祝儀や会費の場合には注意が必要です。","{'key': 'score', 'score': False, 'comment': 'The provided answer does not faithfully reflect the key point from the reference output. According to the reference, if a public servant is attending a wedding reception with many attendees and the personal expenditure (such as food costs exceeding 10,000 yen) is involved, reporting to an ethics officer is not necessary. The provided answer instead gives a vague answer that suggests verifying whether reporting is required depending on the organizational guidelines, which does not align with the clear instructions in the reference output. Thus, the answer is incomplete and inaccurate. Thus, the score should be: false.', 'metadata': None}"
+gpt-5-mini,"
+            国家公務員が結婚披露宴に利害関係者を招待する場合には、倫理監督官に届出をする必要がありますか。
+            利害関係者が行う結婚披露宴に、国家公務員が出席する場合（祝儀や会費を持参するため自己費用負担）はどうですか。
+        ","結論を先に述べますと、「場合によっては届出が必要／届出して事前確認を取るべき」です。以下、要点と対応手順を簡潔に示します。
+
+1) 国家公務員が利害関係者を自分の結婚披露宴に招待する場合
+- 招待する相手が「職務に関して利害関係のある者（利害関係者）」に該当するなら、利害関係の調整や外形上の問題（贈与・便宜供与の疑いなど）を避けるため、所属の倫理監督官（あるいは倫理担当窓口）に事前に相談・届出することが原則です。  
+- 届出により、招待の可否や出席した場合の対応（関係する職務からの排除、当該組織との接触制限等）について指示が出されます。届出をしておけば後から疑義が生じた場合の説明責任を果たせます。
+
+2) 利害関係者が主催する結婚披露宴に国家公務員が出席する場合（自費で祝儀・会費を持参）
+- 主催者が利害関係者であれば、出席そのものが問題となることがあります。自費で会費・祝儀を負担することは問題軽減になりますが、それだけで必ず許されるとは限りません。  
+- 出席前に所属の倫理監督官に相談・届出し、当該利害関係の程度（直接関係の有無、金額の大きさ、頻度、業務上の関係性など）を説明して判断を仰ぐのが安全です。  
+- 出席を認められた場合でも、以後その主催者に関する職務処理から排除される等の措置が取られることがあります。
+
+参考となる対応手順（実務上のおすすめ）
+- まず相手が「利害関係者」に該当するか職場の基準で確認する（所属長／人事課／倫理監督官へ）。  
+- 利害関係者に該当する場合は、事前に倫理監督官に届出・相談する（書面様式がある場合はそれに従う）。  
+- 監督官の指示に従う（出席可否、職務上の制約、記録保存など）。  
+- 出席する際は領収書・会費等の支払い記録を残す。祝儀等高額な受領は避ける（受領した場合は速やかに報告）。
+
+法的根拠・注意
+- こうした扱いは国家公務員倫理法やそれに基づく倫理規程・運用指針に基づきます。細かい運用や届出様式・金額基準は所属省庁・自治体の内部規程によって異なります。  
+- 最終的には所属機関の倫理監督官の判断が優先されます。個別事案はケースバイケースなので、まずは所属の窓口に相談してください。
+
+必要であれば、届出書の簡単な文例（雛形）を作成します。どうされますか？","{'key': 'score', 'score': False, 'comment': 'The answer provided is generally comprehensive and explains the need for a filing or consultation with the ethics officer in cases where there is a potential for a conflict of interest regarding a wedding reception. However, the reference output indicates a specific condition: if a wedding reception with numerous attendees is involved and even if the official’s self-paying expense exceeds 10,000 yen, there is no requirement to file a notification. The provided answer does not mention this nuance or threshold condition. Therefore, despite providing detailed procedural notes, the response is incomplete as it fails to address the specific exception referenced (the 1万円 threshold). Thus, the score should be: false.', 'metadata': None}"
+gpt-5,"
+            国家公務員が結婚披露宴に利害関係者を招待する場合には、倫理監督官に届出をする必要がありますか。
+            利害関係者が行う結婚披露宴に、国家公務員が出席する場合（祝儀や会費を持参するため自己費用負担）はどうですか。
+        ","結論（一般論）
+- 招待する場合：届出は原則不要。ただし、利害関係者から祝儀や贈物等の「利益」を受け取ること自体が原則禁止なので、招待するなら「ご祝儀辞退」や会費制（1人当たりの実費相当額を一律徴収）などの措置が必要です。疑義があるときは事前に倫理監督官へ相談してください。
+- 出席する場合：自己費用負担（祝儀や会費、旅費・宿泊費等を自分で負担）であれば、原則差し支えありません。届出も通常不要です。ただし、相手方からの無償・割引の提供（送迎、宿泊、二次会費用、記念品等）といった供応接待や贈与は受けられません。
+
+実務上の留意点
+- 招待する場合
+  - ご祝儀・花輪・祝電・高額な贈物等は利害関係者から受け取らない（やむを得ず届いた場合は速やかに返却）。
+  - 会費制にする場合は、飲食・会場・引出物等の実費相当額を超えない一律設定にする。
+  - 私的な友人関係であっても、相手が利害関係者である限り、受領禁止の原則は同じ。
+- 出席する場合
+  - 祝儀や会費の額が提供される飲食・引出物の価額を概ね上回る（＝自分が払っている）ことが通常であり、この場合は供応接待には当たりません。
+  - 主催者負担の旅費・宿泊、特別な無償サービス、二次会費用等は受けない。提供される場合は辞退するか実費を支払う。
+- 組織内ルール
+  - 省庁や所属機関ごとに、倫理規程に基づく内規で「事前相談・記録・届出」を求める運用がある場合があります。所属庁の倫理担当（倫理監督官・相談員）に事前確認を。
+
+不安があれば、具体的な招待・出席の形態（会費額、引出物、旅費の扱い等）を添えて、倫理監督官に事前相談するのが安全です。","{'key': 'score', 'score': True, 'comment': 'The provided answer correctly addresses both parts of the question with accurate and complete details. It clearly explains that for inviting interest parties to a wedding banquet, a notification is generally not required as long as certain conditions are met, such as no acceptance of gifts from these parties. It also clarifies that attending an interest party’s wedding banquet by self-funding is normally acceptable without needing to notify the ethics oversight officer, provided that no free or discounted services are received. This explanation fully aligns with the intended guidelines and does not contain any factual errors or inconsistencies. Thus, the score should be: true.', 'metadata': None}"
+gpt-4o,"
+            国家公務員が、利害関係者に該当するＯＢ数名も参加する、
+            ＯＢ会のゴルフコンペ（30～40人以上が参加する規模のもの）に参加することは、
+            倫理規程で禁止されている「利害関係者と共にゴルフをすること」に該当するのですか。
+        ","この質問に関して判断するためには、具体的な倫理規程の内容を確認する必要があります。一般的に、国家公務員が利害関係者と共にゴルフなどの活動に参加することが倫理規程で制限されている場合があります。利害関係者との接触が、公務員の職務に対する公平性や公正性に影響を与える可能性があるためです。
+
+あなたの示したケースでは、「利害関係者に該当するOB数名も参加する」とのことで、公務員倫理規程がそれにどのように適用されるかは、個々の状況や規定の詳細によります。特に、そのOBがどのような立場で利害関係者とみなされるのか、また、ゴルフコンペ自体がどのように企画されているのか（例：公式なイベントか非公式な集まりか）によっても異なります。
+
+具体的な判断は、所属している組織の倫理規程および相談窓口で確認したほうが良いでしょう。また、コンプライアンス担当者や法律顧問と相談することも適切です。倫理規程に従い、慎重に行動することが求められます。","{'key': 'score', 'score': False, 'comment': 'The provided answer does not align with the reference output. The reference output clearly states that, under the ethics regulations, if a national government employee voluntarily participates in a regularly scheduled golf competition (even if a few stakeholders are present by chance), it is not a violation of the regulations. In contrast, the provided answer is vague and suggests that participation might be prohibited and requires verification with specific ethics rules. Hence, the response is incomplete and does not give a clear, correct answer as per the reference example. Thus, the score should be: false.', 'metadata': None}"
+gpt-5-mini,"
+            国家公務員が、利害関係者に該当するＯＢ数名も参加する、
+            ＯＢ会のゴルフコンペ（30～40人以上が参加する規模のもの）に参加することは、
+            倫理規程で禁止されている「利害関係者と共にゴルフをすること」に該当するのですか。
+        ","結論（端的に）
+- 30〜40人規模のＯＢ会ゴルフコンペに公務員が参加すること自体が、直ちに「利害関係者とゴルフをすること」の一律の禁止に当たるとは限りません。ただし、当該ＯＢのうち特定の人物があなたの職務で直接の利害関係者（現在進行中の案件や利益調整の相手等）である場合、同じ組でプレーする・個別に懇談する等の近接関係があると「問題となる可能性」が高くなります。
+
+判断のポイント（実務的チェックリスト）
+1. 利害関係者かどうかの範囲
+   - 当該ＯＢがあなたの職務に関して具体的・直接的な利害関係を有しているか（契約相手、補助金申請者、監督対象等）。
+2. 一緒に回るかどうかの関係性の密度
+   - 同じ組（同伴プレーヤー）で数時間をともにするか、単に同じ大会に参加しているだけか。前者は問題視されやすい。
+3. 招待・接待の性質
+   - 会の主催者が利益供与的（高額の接待や特別扱い）か、一般参加型で参加費等が適正か。
+4. 見た目（第三者から見た不当な影響の疑い）
+   - 外部から見て「職務に影響を与えるための関係作り」と受け取られる可能性があるか。
+5. 所属機関の規程・過去事例
+   - 所属省庁・自治体の倫理規程や内部ガイドライン、先例（同僚の取扱い）を確認。
+
+対応・実務上の勧め
+- 事前に所属機関の倫理管理担当者（倫理管理者、内部監査部門等）に相談・報告し、文書での承認・助言を得る。
+- 当日、利害関係者と同組にならないよう配慮を依頼する（主催者に頼める場合は頼む）。
+- 個別の懇談・名刺交換・金品授受・私的便宜供与は避ける。接待に該当する高額な飲食・贈答は受けない。
+- 参加後も必要なら参加理由や出席状況を記録し、利害関係のある案件からの関与回避を明確にする。
+- 判断に迷う場合は、正式な倫理相談・事前照会（書面）を求める。
+
+参考になる考え方（解釈例）
+- 「利害関係者と共にゴルフをすること」の趣旨は、職務に影響を及ぼす可能性のある私的な親密関係の形成や不当な利益供与を防ぐことです。大規模で多数の参加者がおり、特定の利害関係者と長時間個別に接触する状態が生じない場合は、禁止の趣旨に抵触しないと判断される余地が大きいです。一方で、同じ組で回る、個別に接待を受ける、運営側から特別扱いを受ける等があれば禁止に該当する可能性が高まります。
+
+最後に（推奨アクション）
+- まず所属機関の倫理担当に事情（大会名、規模、参加者リスト／把握している利害関係者の氏名、参加の形態）を伝え、事前に判断を仰いでください。文書での確認を残しておくと後日の説明責任が果たしやすくなります。
+
+必要なら、所属先の規程条文や過去の所内判断（類似事例）があれば、それを基により具体的な助言を作成します。どうされますか。","{'key': 'score', 'score': True, 'comment': 'The response correctly explains that participation in a large-scale OB golf competition with 30–40 participants is not automatically in breach of the ethical guidelines, as long as there is no direct, intimate interaction with a known stakeholder that might influence decisions. It notes that if a specific individual among the OB members is a direct stakeholder related to the official’s work, then certain behaviors (like playing in the same group or holding private discussions) might be problematic. Furthermore, the response provides a detailed checklist and recommended actions (such as consulting the ethics officer) which align with the reference output. There are no factual inaccuracies and all parts of the question are addressed with precise and accurate terminology. Thus, the score should be: true.', 'metadata': None}"
+gpt-5,"
+            国家公務員が、利害関係者に該当するＯＢ数名も参加する、
+            ＯＢ会のゴルフコンペ（30～40人以上が参加する規模のもの）に参加することは、
+            倫理規程で禁止されている「利害関係者と共にゴルフをすること」に該当するのですか。
+        ","結論だけ言うと、「利害関係者と共にゴルフをすること」が禁止されているのは、同じ組で同伴プレーをする場合を指すのが原則です。したがって、OB会の大人数コンペに利害関係者に該当するOBが数名参加していても、あなたがその方々と同じ組にならないよう事前に確実に調整できるなら、直ちに禁止行為には当たりません。
+
+注意点
+- 組合せの管理：当日抽選などで利害関係者と同組になる可能性があるなら、参加を控えるか、同組にならないことを主催側に明確に依頼してください（同伴になったらプレー不可）。
+- 費用負担：プレーフィー、昼食、交通費、キャディ代、懇親会費、参加費等は全て自費負担。利害関係者からの支払い・割引・送迎・立替えは不可。
+- 主催・協賛：利害関係者が主催・共催・実質的に費用を負担する（協賛品提供を含む）コンペは、供応・贈与の禁止に抵触するおそれが高いため避けてください。
+- 賞品・景品：利害関係者提供の賞品・景品は受け取れません。参加者の会費で購入した賞品のみ可。
+- 懇親会・表彰式：利害関係者の負担による飲食は不可。自費でも、金額等により倫理規程の届出対象となる場合があります（所属の基準に従って確認）。
+- 利害関係者の範囲：誰があなたの職務上の利害関係者に当たるかは職務内容で変わります。対象者の該当性は所属の倫理担当に確認を。
+- 事前相談：最終的には所属の倫理監督官・倫理相談員に事前相談し、同伴回避の手当てや必要な届出の有無を確認してください。
+
+要するに、同伴プレーを避け、利害関係者から一切の供与を受けないことが担保できる場合に限り、参加は可能です。どれか一つでも担保できない場合は参加を見送るのが安全です。","{'key': 'score', 'score': True, 'comment': 'The answer accurately states that the ethical regulation only prohibits playing alongside stakeholders in the same round, and that avoiding the scenario by adjusting group assignments avoids violation of the regulation. It also provides extensive details and precautionary measures which are consistent with the reference output, meaning it is factually complete, covers all aspects of the question, and uses precise terminology. Thus, the score should be: true.', 'metadata': None}"
+gpt-4o,"
+            国家公務員が出張で、利害関係のある民間企業を訪れた際、
+            帰りに駅まで、偶然同方向に用務があるその企業の従業員が乗るタクシーに便乗することは、倫理規程に違反するのでしょうか。
+        ","国家公務員が利害関係のある民間企業の従業員と一緒にタクシーに乗ることについて、倫理規程に違反するかどうかは、具体的な状況や倫理規程の詳細によります。一般的に、倫理規程は公務員の職務の公正性や不偏性を保つことを目的としています。そのため、利害関係のある相手からの利益供与や、便宜供与を受けるような状況を避けることが求められることが多いです。
+
+このケースにおいては、便乗する際に費用の負担がどのようになっているのか、またそれが第三者から見て不適切な関係を築いていると受け取られる可能性があるかどうかなどがポイントとなります。一般的には、その企業の従業員がタクシー費用を全額負担する形での便乗は避けるべきでしょう。
+
+具体的な判断については、各省庁の倫理規程やコンプライアンス部門に相談することをお勧めします。また、疑わしい場合は控えるのが無難です。","{'key': 'score', 'score': False, 'comment': 'The response provided by the model is vague and does not fully address the situation compared to the reference output. The reference explicitly explains that if the official is not receiving extra benefit or additional cost, and if the taxi was used coincidentally without new burdens on the related party, then it is acceptable. In contrast, the answer is ambiguous and focuses on a potentially adverse scenario without noting that it may be acceptable in the absence of additional burdens. Thus, the response is incomplete relative to the reference details. Thus, the score should be: false.', 'metadata': None}"
+gpt-5-mini,"
+            国家公務員が出張で、利害関係のある民間企業を訪れた際、
+            帰りに駅まで、偶然同方向に用務があるその企業の従業員が乗るタクシーに便乗することは、倫理規程に違反するのでしょうか。
+        ","結論から言うと、「それ自体が常に直ちに違反になる」とは言えませんが、状況次第では国家公務員倫理上問題になり得ます。重要なのは「便乗が利益供与（無償の便宜）に当たるか」「利害関係者からの利益を受けたとみなされるか」「職務の公正性や外見上の中立性が損なわれないか」です。判断に当たって確認すべきポイントと対応を以下に示します。
+
+確認すべきポイント
+- 誰がタクシー代を負担するか：公務員本人が自己負担（現金で自分の分を払う、割り勘）するなら問題になりにくい。相手企業の従業員が全額負担／領収書を渡して会社負担になる場合は利益供与に該当する可能性が高い。
+- 利害関係の程度：その民間企業が当該公務員の職務上の関係先（決定権や評価対象など）であれば、より厳格に扱われる。
+- 頻度・反復性：単発で偶発的なものと、常習的・恒常的に便宜を受けているのとでは評価が異なる。
+- 意図・影響：便乗が職務判断に影響を与えることを期待・示唆する意味合いを持つかどうか。
+- 外見上の問題（国民の疑念）：第三者が見て「便宜を受けている」と疑われるような状況か。
+
+望ましい対応（実務上の注意）
+- 自分の分は必ず自己負担する（割り勘で現金／カードで支払う、領収書を保管）。
+- 相手側が払おうとする場合は遠慮して自分で支払うか、事務所へ相談・記録を取る。
+- 事前に判断が不明なら所属機関の倫理担当部局（倫理相談窓口）に相談・承認を得る。
+- 発生後でも念のため状況を報告・記録しておく（日時、同行者、支払方法など）。
+- たとえ偶然の同乗でも、業務上の重要案件を取り扱う相手なら避けるのが無難。
+- 乗車中に職務に関する非公開のやり取りや取引条件の話題に入らない。
+
+関連法令・規程
+- 国家公務員倫理法・各省庁の倫理規程等では、利害関係者からの金銭・贈与・便宜の受領制限や職務の公正保持が定められています。具体的取り扱いは所属機関の内部規程で定められていることが多いので、それを確認してください。
+
+最後に
+具体的な事案（誰が払ったか、あなたがその企業の案件を扱うか等）によって扱いが変わります。最終的には所属機関の倫理担当窓口や人事担当に相談して判断を仰ぐことをおすすめします。必要なら、実際の状況を詳しく教えていただければもう少し具体的な助言を差し上げます。","{'key': 'score', 'score': True, 'comment': 'The provided answer thoroughly addresses the question by explaining that the practice is not automatically a violation but depends on specific factors such as who pays for the taxi, the relationship with the visited company, the frequency of such rides, and the appearance of impropriety. It mentions the importance of self-payment and provides recommendations regarding consultation with ethics departments, which aligns with the reference output. The answer is factually accurate, complete, and uses precise terminology without omissions or logical inconsistencies. Thus, the score should be: true.', 'metadata': None}"
+gpt-5,"
+            国家公務員が出張で、利害関係のある民間企業を訪れた際、
+            帰りに駅まで、偶然同方向に用務があるその企業の従業員が乗るタクシーに便乗することは、倫理規程に違反するのでしょうか。
+        ","結論（一般論）
+- 原則として違反となる可能性が高いです。利害関係者（監督・許認可・契約関係などがある先）からの送迎やタクシー代の負担は、国家公務員倫理法・倫理規程上の「経済的利益の供与（供応接待・便宜供与）」に該当しうるためです。偶然同方向であっても、無償で同乗すれば「利益の受領」と評価されます。
+
+許容され得る余地（リスクを下げる実務）
+- 同乗せず、自分でタクシーを手配・支払うのが最も確実です。
+- どうしても同乗せざるを得ない事情がある場合は、少なくとも次を徹底してください。
+  - 相手方負担にしない（自分の運賃は自分で直接運転手に支払う。自分名義の領収書を受け取る）。
+  - 相手が立替えた場合は、その場で正確な実費を直ちに精算し、金額が裏付けられる記録を残す（後日まとめ払い・概算払いは避ける）。
+  - 会社手配・会社負担のタクシーや社用車への同乗は、割り勘でも「送迎」と見なされやすく、避ける。
+  - 安全確保や交通機関がない等のやむを得ない状況で受けざるを得なかった場合は、日時・相手・区間・金額・事情を記録し、速やかに上司・所属の倫理管理官に報告・相談する。
+
+補足
+- 金額の多寡や「偶然同方向」であることは、基本的な判断を左右しません。ポイントは「利害関係者から経済的利益（運賃負担や送迎サービス）を受けていないか」です。
+- 具体の運用は各府省の内規や倫理審査会のQ&Aで細部が定められている場合があります。迷うときは事前に所属の倫理担当（倫理管理官・コンプライアンス窓口）へ確認してください。
+
+実務的な断り方の例
+- 「規程上、利害関係先さまの手配された車に同乗できませんので、私は自分で手配・支払いします。お気遣いなくお願いいたします。」","{'key': 'score', 'score': False, 'comment': 'The provided answer concludes that riding in the taxi with a related party is highly likely to be a violation of ethical regulations, even if the situation is merely coincidental. However, the reference output explains that as long as there is no additional burden or benefit given, incidental riding that coincides with the official’s travel route is not considered a violation. The answer fails to consider this nuance and overgeneralizes, leading to a conclusion that is at odds with the reference guidance. Thus, the score should be: false.', 'metadata': None}"

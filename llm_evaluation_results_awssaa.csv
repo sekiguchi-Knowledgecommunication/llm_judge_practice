@@ -1,0 +1,181 @@
+model,question,answer,evaluation
+gpt-4o,"
+            2) あるソリューションアーキテクトは、会社が 2 週間一時休業する間に実行する必要のない Amazon EC2 イン
+            スタンスのコストを節約するため、ソリューションを設計したいと考えています。EC2 インスタンスで実行され
+            ているアプリケーションは、インスタンスが動作を再開するときに必要なデータをインスタンスメモリに格納し
+            ます。 
+
+            EC2 インスタンスをシャットダウンして再開するために、ソリューションアーキテクトが推奨すべきアプローチ
+            はどれですか。  
+
+
+            A) インスタンスストアボリュームにデータを格納するようにアプリケーションを変更する。ボリュームを
+            再起動中に、再接続する。 
+
+            B) EC2 インスタンスを停止する前に、インスタンスのスナップショットを作成する。インスタンスの再起
+            動後に、スナップショットを復元する。 
+
+            C) 休止状態が有効になっている EC2 インスタンスでアプリケーションを実行する。会社が 2 週間の一時
+            休業に入る前に、インスタンスを休止状態にする。 
+
+            D) EC2 インスタンスを停止する前に、各インスタンスのアベイラビリティーゾーンをメモしておく。2 週
+            間の一時休業が終わったら、同じアベイラビリティーゾーンでインスタンスを再起動する。
+
+        ","EC2インスタンスが停止されている間、インスタンスメモリに格納されたデータを保持するためには、インスタンスの休止状態が役立ちます。休止状態にすると、インスタンスメモリの内容がEBSルートボリュームに保存され、インスタンスが再開されたときに、その内容が復元されます。したがって、選択肢Cが適切なアプローチです。
+
+C) 休止状態が有効になっている EC2 インスタンスでアプリケーションを実行する。会社が 2 週間の一時休業に入る前に、インスタンスを休止状態にする。","{'key': 'score', 'score': True, 'comment': 'The output correctly identifies that using EC2 instance hibernation (休止状態) saves the in-memory data to the EBS root volume, which is exactly the same approach as described in the reference. It provides accurate and complete rationale and directly addresses the specific need of preserving in-memory data during the temporary shutdown period. Thus, the score should be: true.', 'metadata': None}"
+gpt-5-mini,"
+            2) あるソリューションアーキテクトは、会社が 2 週間一時休業する間に実行する必要のない Amazon EC2 イン
+            スタンスのコストを節約するため、ソリューションを設計したいと考えています。EC2 インスタンスで実行され
+            ているアプリケーションは、インスタンスが動作を再開するときに必要なデータをインスタンスメモリに格納し
+            ます。 
+
+            EC2 インスタンスをシャットダウンして再開するために、ソリューションアーキテクトが推奨すべきアプローチ
+            はどれですか。  
+
+
+            A) インスタンスストアボリュームにデータを格納するようにアプリケーションを変更する。ボリュームを
+            再起動中に、再接続する。 
+
+            B) EC2 インスタンスを停止する前に、インスタンスのスナップショットを作成する。インスタンスの再起
+            動後に、スナップショットを復元する。 
+
+            C) 休止状態が有効になっている EC2 インスタンスでアプリケーションを実行する。会社が 2 週間の一時
+            休業に入る前に、インスタンスを休止状態にする。 
+
+            D) EC2 インスタンスを停止する前に、各インスタンスのアベイラビリティーゾーンをメモしておく。2 週
+            間の一時休業が終わったら、同じアベイラビリティーゾーンでインスタンスを再起動する。
+
+        ","正解は C) です。
+
+理由：
+- EC2 の休止 (Hibernate) はインスタンスのメモリ内容を暗号化された EBS ボリュームに保存してインスタンスを停止し、再開時にメモリを復元します。これによりアプリケーションのメモリ内状態を保持したままコスト削減のため停止でき、再開時に同じ状態で動作を継続できます。
+- A はインスタンスストアは停止や再作成で消えるため不可。
+- B のスナップショットはディスクデータのみでメモリ状態は保存されないため不可。
+- D はアベイラビリティゾーンをメモしてもメモリ状態は保持されない。
+
+補足（運用上の注意）：
+- 休止は EBS バックのインスタンスでサポートされること、ルートボリュームの暗号化やサイズ要件（メモリ量を格納できる容量）があること、対応 OS/インスタンスタイプの制約があることに注意してください。","{'key': 'score', 'score': True, 'comment': 'The answer identifies option C as correct and provides an explanation aligned with the reference output. All parts of the question are addressed, and the explanation correctly describes how hibernating an EC2 instance preserves in-memory state by saving it to an encrypted EBS volume. The answer accurately compares the provided options and explains why A, B, and D are not suitable. Thus, the score should be: true.', 'metadata': None}"
+gpt-5,"
+            2) あるソリューションアーキテクトは、会社が 2 週間一時休業する間に実行する必要のない Amazon EC2 イン
+            スタンスのコストを節約するため、ソリューションを設計したいと考えています。EC2 インスタンスで実行され
+            ているアプリケーションは、インスタンスが動作を再開するときに必要なデータをインスタンスメモリに格納し
+            ます。 
+
+            EC2 インスタンスをシャットダウンして再開するために、ソリューションアーキテクトが推奨すべきアプローチ
+            はどれですか。  
+
+
+            A) インスタンスストアボリュームにデータを格納するようにアプリケーションを変更する。ボリュームを
+            再起動中に、再接続する。 
+
+            B) EC2 インスタンスを停止する前に、インスタンスのスナップショットを作成する。インスタンスの再起
+            動後に、スナップショットを復元する。 
+
+            C) 休止状態が有効になっている EC2 インスタンスでアプリケーションを実行する。会社が 2 週間の一時
+            休業に入る前に、インスタンスを休止状態にする。 
+
+            D) EC2 インスタンスを停止する前に、各インスタンスのアベイラビリティーゾーンをメモしておく。2 週
+            間の一時休業が終わったら、同じアベイラビリティーゾーンでインスタンスを再起動する。
+
+        ","正解: C
+
+理由:
+- ハイバネーションはインスタンスのメモリ内容（RAM）をルートEBSに保存し、停止中はEBS課金のみでコスト削減でき、再開時にメモリ状態を復元してアプリを続行可能。
+- A/BはRAMの状態を保持できない。Dは要件を満たさない。","{'key': 'score', 'score': True, 'comment': 'The provided answer correctly identifies option C as the best approach. It accurately explains that hibernation saves the instance memory (RAM) state to the root EBS volume, thereby ensuring that upon resumption the instance can continue using its in-memory data, which meets the requirements outlined in the input. The response is complete and factually accurate, addressing the key points from the question while also dismissing the other alternatives with clear reasoning. Thus, the score should be: true.', 'metadata': None}"
+gpt-4o,"
+            8) ある企業には、パブリックサブネットとプライベートサブネットで実行される 2 層アプリケーションアーキテクチャがあります。
+
+            ウェブアプリケーションを実行している Amazon EC2 インスタンスはパブリックサブネットにあり、
+
+            データベースの EC2 インスタンスはプライベートサブネットで実行されています。
+
+            ウェブアプリケーションインスタンスとデータベースは単一のアベイラビリティーゾーン (AZ) で実行されています。
+ 
+            このアーキテクチャで高可用性を実現するために、ソリューションアーキテクトが取るべきステップの組み合わせはどれですか。 (2 つ選択)
+
+
+            A) 新しいパブリックサブネットとプライベートサブネットを同一の AZ に作成する。 
+
+            B) 複数の AZ にまたがる Amazon EC2 Auto Scaling グループと Application Load Balancer をウェブアプリケーションインスタンス用に作成する。 
+
+            C) 既存のウェブアプリケーションインスタンスを Application Load Balancer の背後にある Auto Scaling グループに追加する。 
+
+            D) 新しいパブリックサブネットとプライベートサブネットを新しい AZ に作成する。新しい AZ にあるパブリックサブネットに
+            EC2インスタンスを使用してデータベースを作成する。古いデータベースの内容を新しいデータベースに移行する。 
+
+            E) 新しいパブリックサブネットとプライベートサブネットを同一の VPC 内の、それぞれ新しい AZ に作成する。
+
+            Amazon RDS マルチ AZ DB インスタンスをプライベートサブネットに作成する。古いデータベースの内容を新しい DB インスタンスに移行する。
+        ","このアーキテクチャで高可用性を実現するために、以下のステップを取るとよいでしょう。
+
+B) 複数の AZ にまたがる Amazon EC2 Auto Scaling グループと Application Load Balancer をウェブアプリケーションインスタンス用に作成する。
+
+E) 新しいパブリックサブネットとプライベートサブネットを同一の VPC 内の、それぞれ新しい AZ に作成する。Amazon RDS マルチ AZ DB インスタンスをプライベートサブネットに作成する。古いデータベースの内容を新しい DB インスタンスに移行する。
+
+これにより、ウェブアプリケーションおよびデータベースの両方が複数のアベイラビリティーゾーンに跨ることになり、高可用性が向上します。","{'key': 'score', 'score': True, 'comment': 'The answer provided clearly identifies the correct steps (B and E) that align with the reference output. It accurately mentions the use of a multi-AZ Auto Scaling Group with Application Load Balancer for the web tier, and the creation of new subnets in a new AZ with an Amazon RDS Multi-AZ DB instance for the database, which meets the rubric criteria for completeness and correctness. Thus, the score should be: true.', 'metadata': None}"
+gpt-5-mini,"
+            8) ある企業には、パブリックサブネットとプライベートサブネットで実行される 2 層アプリケーションアーキテクチャがあります。
+
+            ウェブアプリケーションを実行している Amazon EC2 インスタンスはパブリックサブネットにあり、
+
+            データベースの EC2 インスタンスはプライベートサブネットで実行されています。
+
+            ウェブアプリケーションインスタンスとデータベースは単一のアベイラビリティーゾーン (AZ) で実行されています。
+ 
+            このアーキテクチャで高可用性を実現するために、ソリューションアーキテクトが取るべきステップの組み合わせはどれですか。 (2 つ選択)
+
+
+            A) 新しいパブリックサブネットとプライベートサブネットを同一の AZ に作成する。 
+
+            B) 複数の AZ にまたがる Amazon EC2 Auto Scaling グループと Application Load Balancer をウェブアプリケーションインスタンス用に作成する。 
+
+            C) 既存のウェブアプリケーションインスタンスを Application Load Balancer の背後にある Auto Scaling グループに追加する。 
+
+            D) 新しいパブリックサブネットとプライベートサブネットを新しい AZ に作成する。新しい AZ にあるパブリックサブネットに
+            EC2インスタンスを使用してデータベースを作成する。古いデータベースの内容を新しいデータベースに移行する。 
+
+            E) 新しいパブリックサブネットとプライベートサブネットを同一の VPC 内の、それぞれ新しい AZ に作成する。
+
+            Amazon RDS マルチ AZ DB インスタンスをプライベートサブネットに作成する。古いデータベースの内容を新しい DB インスタンスに移行する。
+        ","正解：B と E
+
+理由（簡潔に）
+- B：Web 層は複数 AZ にまたがる Auto Scaling グループ + Application Load Balancer にすることで、AZ 障害時もトラフィックを他 AZ のインスタンスへ振り分け、高可用性を確保できる。
+- E：DB 層は同一 VPC の別 AZ にプライベートサブネットを作り、Amazon RDS のマルチ AZ 構成を使うのが簡単で堅牢（同期レプリカによるフェイルオーバー）。既存 DB を新しい RDS に移行する。
+
+他選択肢が不適切な理由（要点）
+- A：同一 AZ にサブネットを増やしても AZ 障害対策にならない。
+- C：既存インスタンスをそのまま ASG に追加する運用は一般的に推奨されず、ASG 管理下でインスタンスを起動して冗長化するのが正解。
+- D：DB を新 AZ の「パブリックサブネット」に置くのはセキュリティ的に不適切。RDS マルチ AZ を使う方が簡単で信頼性が高い。","{'key': 'score', 'score': True, 'comment': 'The given answer selects options B and E, which matches the provided reference output. The explanation clarifies that option B provides high availability for the web layer through multi-AZ Auto Scaling and an Application Load Balancer, while option E delivers high availability for the database layer with RDS Multi-AZ in a new private subnet. Additionally, the reasons for excluding options A, C, and D are consistent with the reference solution. Thus, the answer is factually accurate and complete. Thus, the score should be: true.', 'metadata': None}"
+gpt-5,"
+            8) ある企業には、パブリックサブネットとプライベートサブネットで実行される 2 層アプリケーションアーキテクチャがあります。
+
+            ウェブアプリケーションを実行している Amazon EC2 インスタンスはパブリックサブネットにあり、
+
+            データベースの EC2 インスタンスはプライベートサブネットで実行されています。
+
+            ウェブアプリケーションインスタンスとデータベースは単一のアベイラビリティーゾーン (AZ) で実行されています。
+ 
+            このアーキテクチャで高可用性を実現するために、ソリューションアーキテクトが取るべきステップの組み合わせはどれですか。 (2 つ選択)
+
+
+            A) 新しいパブリックサブネットとプライベートサブネットを同一の AZ に作成する。 
+
+            B) 複数の AZ にまたがる Amazon EC2 Auto Scaling グループと Application Load Balancer をウェブアプリケーションインスタンス用に作成する。 
+
+            C) 既存のウェブアプリケーションインスタンスを Application Load Balancer の背後にある Auto Scaling グループに追加する。 
+
+            D) 新しいパブリックサブネットとプライベートサブネットを新しい AZ に作成する。新しい AZ にあるパブリックサブネットに
+            EC2インスタンスを使用してデータベースを作成する。古いデータベースの内容を新しいデータベースに移行する。 
+
+            E) 新しいパブリックサブネットとプライベートサブネットを同一の VPC 内の、それぞれ新しい AZ に作成する。
+
+            Amazon RDS マルチ AZ DB インスタンスをプライベートサブネットに作成する。古いデータベースの内容を新しい DB インスタンスに移行する。
+        ","正解: B と E
+
+理由:
+- B) Web層は複数 AZ にまたがる Auto Scaling グループ＋ALB で冗長化し、AZ 障害時でもフォールトトレラントにします。
+- E) DB 層は新しい AZ にプライベートサブネットを用意し、RDS のマルチ AZ 構成で自動フェイルオーバーを実現します（既存データを移行）。
+
+A は同一 AZ なので HA にならず、C は単に既存インスタンスを ASG/ALB にぶら下げるだけではマルチ AZ 冗長化が担保されません。D は DB をパブリックサブネットに置くため不適切です。","{'key': 'score', 'score': True, 'comment': 'The answer correctly identifies option B and option E as the correct steps to provide high availability, aligning with the reference output that emphasizes using multiple AZs, an Auto Scaling group with an Application Load Balancer for the web layer, and an RDS Multi-AZ deployment for the database. The explanation also addresses why the other options are unsuitable. Thus, the score should be: true.', 'metadata': None}"
